@@ -1,26 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./assets/shuvro.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="inter-font">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./assets/shuvro.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="inter-font">
     <header>
-        <nav class="navbar">
-            <h1 class="white">Tech<span>Wave</span></h1>
-            <div class="nav-text">
-                <ul class="flex">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Episodes</a></li>
-                    <li><a href="">Host</a></li>
-                </ul>
-            </div>
-            <div class="common-button flex">Subscribe <i class="fa-solid fa-arrow-right"></i></div>
-        </nav>
+      <!-- navbar -->
+      <nav class="navbar">
+        <h1 class="white">Tech<span>Wave</span></h1>
+        <div class="nav-text none">
+          <ul class="flex">
+            <li><a href="">About</a></li>
+            <li><a href="">Episodes</a></li>
+            <li><a href="">Host</a></li>
+          </ul>
+        </div>
+        <div class="common-button flex none">
+          Subscribe <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="hamberger"><i class="fa-solid fa-bars white"></i></div>
+      </nav>
+
+      <!-- banner section -->
+      <section class="banner-section">
+        <div class="banner-container">
+          <div class="banner-pictures">
+            <img
+              class=" banner-png1"
+              src="./assets/hero-circle.png"
+              alt="colorful circle picture"
+            />
+            <img
+              class="banner-png2"
+              src="./assets/microphone.png"
+              alt="picture of a microphone"
+            />
+            <p class="new">New</p>
+          </div>
+          <div class="white">
+            <h1>TechWave</h1>
+            <p>
+              Your daily dose of tech insights, productivity hacks, and personal
+              growth
+            </p>
+          </div>
+          <div class="banner-button-container">
+            <button class="common-button flex"><img src="./assets/spotify.png" alt="spotify's image"> Listen on Spotify</button>
+            <button class="flex banner-button"><img src="./assets/message.png" alt="picture of a message"> Subscribe</button>
+          </div>
+        </div>
+      </section>
     </header>
-</body>
+  </body>
 </html>
