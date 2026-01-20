@@ -15,10 +15,20 @@
   max-width: 1200px;
 }
 .white {
-  color: white;
+  color:#FFFFFF; 
+
+}
+.color {
+  color:#FFFFFF;
+  font-size: 13px;
+  opacity: 0.7;  
+
 }
 .flex {
   display: flex;
+}
+header, .products {
+  background: rgba(26, 11, 46, 1);
 }
 
 .common-button {
@@ -37,12 +47,14 @@
 .banner-button:hover {
   background: linear-gradient(to right, #3ff792, #292628d7, #009df8cb);
 }
-
+.center{
+  text-align: center;
+}
+.grid{
+  display: grid;
+}
 /* navbar edit */
 
-header {
-  background: rgba(26, 11, 46, 1);
-}
 
 .navbar {
   display: flex;
@@ -133,9 +145,35 @@ header ul li a {
     
 }
 
+/* main-section edit*/
 
-
-
+/* products */
+.products{
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.product-text{
+  max-width: 550px;
+  line-height: 20px;
+}
+.product-gap{
+  margin-top: 20px;
+}
+.ratting{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #00FF88;
+}
+.ratting-section{
+   padding-top: 120px;
+  padding-bottom: 120px;
+  /* border: 2px solid; */
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.products-text-width{
+  width: 150px;
+}
 
 
 
@@ -160,5 +198,12 @@ header ul li a {
     .banner-section{
         background-size: contain;
         background-repeat: no-repeat    ;
+    }
+    
+    .ratting-section{
+      grid-template-columns: repeat(2,1fr);
+      padding-top: 40px;
+      padding-bottom: 40px;
+      row-gap: 50px;
     }
 }
