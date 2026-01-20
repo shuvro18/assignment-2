@@ -330,9 +330,7 @@ gap: 8px;
 justify-content: center;
 align-items: center;
 }
-.podcast-site img{
-margin: 0;
-}
+
 .colors {
   color: #ffffff;
   font-size: 13px;
@@ -393,6 +391,14 @@ footer .color{
   .social-media{
     justify-content: center;
   }
+  footer{
+  background-image: url(./assets/hero-bg.png);
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+
+}
   .podcast{
   max-width: 355px;
   display: grid;
@@ -400,4 +406,6 @@ footer .color{
   margin-top: 92px;
   gap: auto;
 }
+
+
 }
