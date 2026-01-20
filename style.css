@@ -61,7 +61,7 @@ header,
   padding: 16px;
 }
 
-nav span {
+nav span, .footer-color {
   background: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
   -webkit-background-clip: text;
   color: transparent;
@@ -300,6 +300,50 @@ header ul li a {
   display: flex;
   gap: 20px;
 }
+/* footer section */
+footer{
+  background-image: url(./assets/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+
+}
+.footer-margin{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.footer-big-text{
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.podcast{
+  max-width: 608px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 92px;
+  gap: 40px;
+}
+.podcast-site{
+display: flex;
+gap: 8px;
+justify-content: center;
+align-items: center;
+}
+.podcast-site img{
+margin: 0;
+}
+.colors {
+  color: #ffffff;
+  font-size: 13px;
+  opacity: 0.7;
+  margin: 0;
+}
+  
+
+footer .color{
+  text-align: center;
+}
 
 
 
@@ -349,4 +393,11 @@ header ul li a {
   .social-media{
     justify-content: center;
   }
+  .podcast{
+  max-width: 355px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 92px;
+  gap: auto;
+}
 }
