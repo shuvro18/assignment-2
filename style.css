@@ -106,11 +106,9 @@ header ul li a {
   position: relative;
 }
 .banner-png1 {
-  /* border: 2px solid; */
   margin-bottom: 40px;
 }
 .banner-png2 {
-  /* border: 2px solid; */
   position: absolute;
   top: 43%;
   left: 50%;
@@ -138,6 +136,7 @@ header ul li a {
   border-radius: 20px;
   align-items: center;
   cursor: pointer;
+  background-color: transparent;
 }
 
 /* main-section edit*/
