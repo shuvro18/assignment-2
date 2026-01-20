@@ -266,6 +266,48 @@ header ul li a {
   width: 17px;
   height: 17px;
 }
+/* host section */
+.host-section{
+ background-color: rgba(26, 11, 46, 1);
+ padding-bottom: 120px;
+}
+.host-section>h1{
+  text-align: center;
+}
+.host-container{
+  gap: 24px;
+}
+.color-sections{
+  background-color: #250d44;
+  border-radius: 40px;
+  margin-top: 40px;
+  padding: 40px;
+}
+.social-media{
+  display: flex;
+  margin-top: 16px;
+}
+.social-media button{
+  margin: 0;
+  height: 40px;
+  width: 40px;
+  border: 2px solid rgba(126, 4, 24, 0.623);
+  border-radius: 20px;
+  background-color: #250d44;
+  cursor: pointer;
+}
+
+.social-media{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+
+
+
+
 
 /* responsive mediaquerie */
 
@@ -297,5 +339,15 @@ header ul li a {
   }
   .flex-of-featured{
     flex-direction: column;
+  }
+
+  .host-container{
+    flex-direction: column;
+  }
+  .host-text{
+    text-align: center;
+  }
+  .social-media{
+    justify-content: center;
   }
 }
